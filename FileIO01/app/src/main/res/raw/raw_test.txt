@@ -1,0 +1,2 @@
+﻿Hello :)
+raw dir 에서 읽어오기

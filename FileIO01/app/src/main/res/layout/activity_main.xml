@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWrite"
+        android:text="File Write"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRead"
+        android:text="File Read"
+        />
+
+    <Button
+        android:id="@+id/btnSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD Card" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="4" />
+
+    <Button
+        android:id="@+id/btnMkdir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sd card mkdir" />
+
+    <Button
+        android:id="@+id/btnRmdir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sd card rm" />
+
+    <Button
+        android:id="@+id/btnRaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read raw file" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="3" />
+
+</LinearLayout>

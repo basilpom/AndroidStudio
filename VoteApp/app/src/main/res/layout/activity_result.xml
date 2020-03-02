@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="투표 결과"
+        android:textSize="30dp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/textView01"
+                android:text="Picture 01"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <RatingBar
+                android:id="@+id/rating01"
+                android:layout_gravity="right"
+                style="?android:attr/ratingBarStyleIndicator"
+                 />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView02"
+                android:text="Picture 02"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <RatingBar
+                android:id="@+id/rating02"
+                android:layout_gravity="right"
+                style="?android:attr/ratingBarStyleIndicator"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView03"
+                android:text="Picture 03"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <RatingBar
+                android:id="@+id/rating03"
+                android:layout_gravity="right"
+                style="?android:attr/ratingBarStyleIndicator"
+                />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
